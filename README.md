@@ -13,3 +13,14 @@ A simple trashcan that mounts on the edge of your desk and opens and closes with
 - 3D printer + filament (PLA)
     - Print trashcan_body with supports
     - Print trashcan_lid with no supports
+
+**Assembly (images coming soon):**
+- Slide the 9 volt battery into the compartment on the bottom of trashcan_body
+- Snap the battery connector onto the battery and plug in the Arduino UNO R3
+- Remove Arduino UNO R3 from plastic casing (if applicable) and place Arduino on pegs on the side of the Arduino
+- Slide the button into place, threading the wires through the hole and connecting them to appropriate pins on the Arduino (see schematic), glue if necessary
+- Place MG90S micro servo on the platform by the top
+- Align trashcan_lid with the top of the can and glue the servo horn to the lid
+- Finish wiring
+- Upload firmware (make sure 9 volt battery is unplugged when the Arduino is plugged into your computer)
+- Slide the body onto the side of your desk!
